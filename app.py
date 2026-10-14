@@ -21,7 +21,7 @@ API_URL = os.getenv(
     "https://api.teraboxdl.site/api/v1/diskwala/extract",
 )
 
-API_KEY = os.getenv("DISKWALA_API_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2YWNmMjI0NjFjODE1ZDkxYzQzMmM3MzYiLCJkaWQiOiJhZmUxYmUyMTMzYWZlNjUxIiwicGlkIjoiZGV2aWNlOmFmZTFiZTIxMzNhZmU2NTEiLCJwcnYiOiJkZXZpY2UiLCJwbHQiOiJhbmRyb2lkIiwidGllciI6ImJhc2ljIiwiZ3YiOnRydWUsImFjdCI6IlVORVZBTFVBVEVEIiwiaWF0IjoxNzkxOTU5NjIyLCJleHAiOjE3OTE5NjMyMjJ9.yvxix0RLoRJhGhoRX11E8EogwXUDe4DpSQAIABmzWL")
+API_KEY = os.getenv("DISKWALA_API_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2YWNmMjI0NjFjODE1ZDkxYzQzMmM3MzYiLCJkaWQiOiJhZmUxYmUyMTMzYWZlNjUxIiwicGlkIjoiZGV2aWNlOmFmZTFiZTIxMzNhZmU2NTEiLCJwcnYiOiJkZXZpY2UiLCJwbHQiOiJhbmRyb2lkIiwidGllciI6ImJhc2ljIiwiZ3YiOnRydWUsImFjdCI6IlVORVZBTFVBVEVEIiwiaWF0IjoxNzkxOTU5NjIyLCJleHAiOjE3OTE5NjMyMjJ9.yvxix0RLoRJhGhoRX11E8EogwXUDe4DpSQAIABmzWLQ","x-dw-kid":"1lyxHi_U3mL-o8aUx0gfpk5LaKDJnmxek91Obyza-UA","x-dw-ts":"1791961969667","x-dw-nonce":"DXxX91Ne1_afA5jE2-0Vpw","x-dw-sig":"MEYCIQDkrcWTAAJ6an6vhNcDqh/gz6UkLHxlNipb6P10mLOwNQIhANEi9DlnsHaqsr9Zicl6eaFDoVCiiP5N6aEb1aliEtU3")
 TIMEOUT = int(os.getenv("DISKWALA_TIMEOUT", "30"))
 
 ALLOWED_HOSTS = {
