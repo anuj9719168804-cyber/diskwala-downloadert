@@ -21,7 +21,7 @@ API_URL = os.getenv(
     "https://api.teraboxdl.site/api/v1/diskwala/extract",
 )
 
-API_KEY = os.getenv("DISKWALA_API_KEY", "6a153c777996306c22105589")
+API_KEY = os.getenv("DISKWALA_API_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2YWNmMjI0NjFjODE1ZDkxYzQzMmM3MzYiLCJkaWQiOiJhZmUxYmUyMTMzYWZlNjUxIiwicGlkIjoiZGV2aWNlOmFmZTFiZTIxMzNhZmU2NTEiLCJwcnYiOiJkZXZpY2UiLCJwbHQiOiJhbmRyb2lkIiwidGllciI6ImJhc2ljIiwiZ3YiOnRydWUsImFjdCI6IlVORVZBTFVBVEVEIiwiaWF0IjoxNzkxOTU5NjIyLCJleHAiOjE3OTE5NjMyMjJ9.yvxix0RLoRJhGhoRX11E8EogwXUDe4DpSQAIABmzWL")
 TIMEOUT = int(os.getenv("DISKWALA_TIMEOUT", "30"))
 
 ALLOWED_HOSTS = {
